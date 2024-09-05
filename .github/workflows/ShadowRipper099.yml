@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       code:
-        description: Paste CRD's 2nd Code
+        description:& "${Env:PROGRAMFILES(X86)}\Google\Chrome Remote Desktop\CurrentVersion\remoting_start_host.exe" --code="4/0AQlEd8yN3-3ZhQkD9ka3DtQnFMNQoE41vDIhRhpraMO3PQAJ9qxJcKB8ugVSD1Y3ucyfQQ" --redirect-url="https://remotedesktop.google.com/_/oauthredirect" --name=$Env:COMPUTERNAME
         required: true
 
 jobs:
